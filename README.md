@@ -48,10 +48,8 @@
   <h4>3. Tool</h4>
   <img src="https://img.shields.io/badge/STS-6DB33F?style=flat&logo=Spring&logoColor=white" />
   <img src="https://img.shields.io/badge/Apache Tomcat-F8DC75?style=flat&logo=Apache Tomcat&logoColor=white" />
-  <img src="https://img.shields.io/badge/dbeaver-3B2C25?style=flat&logo=dbeaver&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white" />
+  
 </div>
 
 <br>
