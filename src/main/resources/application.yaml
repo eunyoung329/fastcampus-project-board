@@ -13,7 +13,9 @@ spring:
     username: eunyoung329
     password: thisisTESTpw!#%&
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
 
   jpa:
     defer-datasource-initialization: true
@@ -28,6 +30,7 @@ spring:
     base-path: /api
     detection-strategy: annotated
   thymeleaf3:
-    decoupled-logic:true
+    decoupled-logic: true
+
 
 
