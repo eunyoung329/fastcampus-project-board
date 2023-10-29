@@ -18,6 +18,7 @@ spring:
     suffix: .html
 
   jpa:
+    open-in-view: false
     defer-datasource-initialization: true
     hibernate.ddl-auto: create
     show-sql: true
