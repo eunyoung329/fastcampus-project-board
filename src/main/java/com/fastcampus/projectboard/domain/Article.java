@@ -11,9 +11,8 @@ import java.util.Set;
 @ToString(callSuper = true)
 @Table(indexes = {
         @Index(columnList = "title"),
-        @Index(columnList = "hashtag"),
-        @Index(columnList = "createdAt"),
-        @Index(columnList = "createdBy")
+        @Index(columnList = "hashtag")
+
 })
 @Entity
 public class Article extends AuditingFields {
@@ -48,6 +47,7 @@ public class Article extends AuditingFields {
     }
 
     @Override
+
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Article article)) return false;

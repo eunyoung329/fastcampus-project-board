@@ -1,4 +1,5 @@
 package com.fastcampus.projectboard.domain;
+
 import jakarta.persistence.Index;
 import lombok.Getter;
 import lombok.Setter;
@@ -38,6 +39,7 @@ public class ArticleComment extends AuditingFields {
     }
 
     @Override
+
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof ArticleComment that)) return false;
